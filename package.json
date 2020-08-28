@@ -1,0 +1,35 @@
+{
+  "name": "nodebb-plugin-alioss-plus",
+  "version": "0.1.1",
+  "description": "A plugin for NodeBB to take file uploads and store them on OSS for nodebb 1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lichao-eric/nodebb-plugin-alioss.git"
+  },
+  "keywords": [
+    "nodebb",
+    "oss",
+    "aliyun",
+    "plugin",
+    "uploads"
+  ],
+  "author": "Eric",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lichao-eric/nodebb-plugin-alioss/issues"
+  },
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  },
+  "dependencies": {
+    "ali-oss": "^4.4.4",
+    "uuid": "~1.4.1",
+    "mime": "~1.2.11",
+    "request": "~2.69.0",
+    "gm": "~1.21.1"
+  }
+}
